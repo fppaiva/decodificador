@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>|[ DECODIFICADOR ]|</title>
+</head>
+
+<body>
+    <div class="container">
+        <div><img class="logo" src="img/logo a.png" alt="logo-alura"></div>
+        <div>
+            <textarea class="container_textoEntrada" placeholder="Digite seu texto"></textarea>
+            <div class="frame">
+                <img src="img/informativo.png" alt="informativo">
+                <p>Apenas letras minúsculas</p>
+            </div>
+            <div class="botoes">
+                <button class="container_btnCriptografar" onclick="criptografarTexto()">Criptografar</button>
+                <button class="container_btnDescriptografar" onclick="descriptografarTexto()">Descriptografar</button>
+                <button class="container_btnLimpar" onclick="limparTexto()">Limpar</button>
+            </div>
+        </div>
+
+        <div class="container_direita">
+            <img class="imagemCriptografando" src="img/figura.jpg" alt="imagem-Criptografando">
+            <textarea class="textoCriptografado" placeholder="Texto criptografado"></textarea>
+            <button class="container_btnCopiar" onclick="copiarTexto()">Copiar</button>
+        </div>
+    </div>
+
+
+    <script src="decodificador.js"></script>
+
+    <footer><p>© 2024 Desenvolvido por Fabiana Paiva || °:. Ariana Sanchez .:°</p></footer>
+    
+</body>
+</html>
